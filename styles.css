@@ -1,0 +1,28 @@
+#modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color:gainsboro;
+  height: 80%;
+  width: 80%;
+  visibility: hidden;
+  box-shadow: 0 5px 10px rgba(42, 42, 42, 0.3);
+}
+
+#main {
+  margin:0 auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+
+button {
+  background-color: #257fad;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <center>
+    <h1 style="font-size: 40; font: outline;">Select Location</h1>
+    <div id="locations"></div>
+    <script>locationsDirectory.displayLocations()</script>
+    <input id="radius"></input> <button onclick="locationsDirectory.displayLocationsWithinRadius(document.getElementById('radius').value)">List Locations</button>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
+  </center>
+</body>
+</html>
